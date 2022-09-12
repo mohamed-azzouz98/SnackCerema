@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout Menu Du Jour</title>
+</head>
+<body>
+    <!--    Include Header ici    -->
+
+    <main>
+        <!-- Formulaire d'ajout du menu du jour -->
+        <section id="containerForm">
+            <form action="" method="post">
+
+                <label for="select_entree">Entrée</label>
+                <br>
+                <!-- En PHP recupérer les options depuis la BDD -->
+                <select id="select_entree" name="getEntree">
+                    <option value="">--    --</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+
+                <label for="select_plat">Plat</label>
+                <br>
+                <!-- En PHP recupérer les options depuis la BDD -->
+                <select id="select_plat" name="getPlat">
+                    <option value="">--    --</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+
+                <label for="select_accompagnement">Accompagnement</label>
+                <br>
+                <!-- En PHP recupérer les options depuis la BDD -->
+                <select id="select_accompagnement" name="getAccompagnement">
+                    <option value="">--    --</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+
+                <label for="select_fromage">Fromage</label>
+                <br>
+                <!-- En PHP recupérer les options depuis la BDD -->
+                <select id="select_fromage" name="getFromage">
+                    <option value="">--    --</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+
+                <label for="select_dessert">Dessert</label>
+                <br>
+                <!-- En PHP recupérer les options depuis la BDD -->
+                <select id="select_dessert" name="getDessert">
+                    <option value="">--    --</option>
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <br>
+                <br>
+
+                <input type="submit" value="Ajouter" name="add">
+            </form>
+        </section>
+    </main>
+
+     <!--    Include Footer ici    -->
+    
+</body>
+</html>
